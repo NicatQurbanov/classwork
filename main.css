@@ -111,7 +111,7 @@ input::placeholder, input[type="submit"] {
 }
 
 button > p {
-    color: white;
+    
     font-size: 17px;
     text-align: right;
     
@@ -150,4 +150,9 @@ img[alt="facebook-icon"] {
     }
 
     
+}
+
+.buttons > p > a {
+    text-decoration: none;
+    color: white;
 }
